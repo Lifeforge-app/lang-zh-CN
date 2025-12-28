@@ -8,6 +8,10 @@
     "noBackups": {
       "title": "未找到备份",
       "description": "没有可用的备份。请使用上面的按钮创建一个新的备份。"
+    },
+    "toBeImplemented": {
+      "title": "待重新实现",
+      "description": "备份恢复功能将很快被重新添加。"
     }
   },
   "modals": {
