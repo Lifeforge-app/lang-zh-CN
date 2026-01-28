@@ -1,6 +1,6 @@
 {
-  "name": "@lifeforge/lang-zh-CN",
-  "version": "0.0.4",
+  "name": "@lifeforge/melvinchia3636--lang-zh-CN",
+  "version": "0.0.9",
   "description": "简体中文 language support for LifeForge.",
   "author": "melvinchia3636 <melvinchia623600@gmail.com>",
   "repository": {
@@ -8,6 +8,7 @@
     "url": "https://github.com/lifeforge-app/lang-zh-CN"
   },
   "lifeforge": {
+    "code": "zh-CN",
     "displayName": "简体中文",
     "icon": "circle-flags:cn"
   }
