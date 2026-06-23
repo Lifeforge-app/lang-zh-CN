@@ -154,5 +154,6 @@
   "inputs": {
     "colorHex": "颜色十六进制"
   },
-  "notApplicable": "不适用"
+  "notApplicable": "不适用",
+  "unsupportedModulesWarning": "以下模块不支持所选语言："
 }

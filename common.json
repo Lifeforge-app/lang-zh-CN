@@ -1,0 +1,455 @@
+{
+  "buttons": {
+    "create": "创建",
+    "update": "更新",
+    "edit": "编辑",
+    "rename": "重命名",
+    "select": "选择",
+    "cancel": "取消",
+    "delete": "删除",
+    "save": "保存",
+    "copy": "复制",
+    "copied": "已复制",
+    "previous": "上一页",
+    "next": "下一页",
+    "print": "打印",
+    "remove": "移除",
+    "upload": "上传",
+    "import": "导入",
+    "submit": "提交",
+    "new": "新增{{item}}",
+    "proceed": "继续",
+    "applyFilters": "应用筛选",
+    "retry": "重试",
+    "refresh": "刷新",
+    "pin": "固定",
+    "unpin": "取消固定",
+    "search": "搜索",
+    "favourite": "收藏",
+    "unfavourite": "取消收藏",
+    "archive": "归档",
+    "unarchive": "取消归档",
+    "download": "下载",
+    "stop": "停止",
+    "record": "录制",
+    "overwrite": "覆盖",
+    "adjust": "调整",
+    "downloading": "下载中 ...",
+    "generate": "生成",
+    "regenerate": "重新生成",
+    "confirm": "确认",
+    "goBack": "返回"
+  },
+  "modals": {
+    "deleteConfirmation": {
+      "title": "您确定要删除{{itemName}}吗？",
+      "desc": "这将删除{{itemName}}及其所有相关内容。此操作不可逆！",
+      "inputs": {
+        "confirmation": {
+          "placeholder": "请键入 \"{{text}}\" 以确认删除",
+          "label": "确认删除"
+        }
+      },
+      "error": "删除项目时出错。请再试一次。"
+    },
+    "searchFilters": "搜索过滤器",
+    "iconPicker": {
+      "title": "选择图标",
+      "items": {
+        "icon": "图标",
+        "iconSet": "图标集"
+      },
+      "empty": {
+        "icon": {
+          "title": "没有图标",
+          "description": "未找到图标，请尝试其他关键词。"
+        }
+      }
+    },
+    "imagePicker": {
+      "title": "选择文件",
+      "local": "上传本地图片",
+      "url": "图片网址",
+      "pixabay": "从Pixabay下载",
+      "orPasteLink": "或粘贴图片链接",
+      "inputs": {
+        "imageLink": "图片链接",
+        "imageType": "图片类型",
+        "imageCategory": "图片类别",
+        "imageColor": "图片颜色",
+        "editorsChoice": "编辑推荐",
+        "prompt": "AI提示文本"
+      },
+      "imageType": {
+        "all": "所有",
+        "photo": "照片",
+        "vector": "矢量图",
+        "illustration": "插图"
+      },
+      "items": {
+        "pixabay": "Pixabay"
+      },
+      "empty": {
+        "result": {
+          "title": "没有结果",
+          "description": "未找到图片，请尝试其他关键词。"
+        },
+        "pixabay": {
+          "title": "由Pixabay提供",
+          "description": "搜索超过1300万张高质量免费图片。"
+        },
+        "noAPIKey": {
+          "title": "Pixabay API密钥未配置",
+          "description": "请在API密钥库中设置您的Pixabay API密钥以使用此功能。"
+        },
+        "noOpenAIKey": {
+          "title": "OpenAI API密钥未配置",
+          "description": "请在API密钥库中设置您的OpenAI API密钥以使用此功能。"
+        }
+      },
+      "ai": "AI图像生成"
+    },
+    "colorPicker": {
+      "title": "选择颜色",
+      "modals": {
+        "morandiColorPalette": "莫兰迪色调",
+        "tailwindCssColorPalette": "Tailwind CSS色调",
+        "flatUiColors": "Flat UI Colors"
+      },
+      "buttons": {
+        "morandiColorPalette": "莫兰迪色调",
+        "tailwindCssColorPalette": "Tailwind CSS色调",
+        "flatUiColors": "Flat UI Colors"
+      }
+    },
+    "imagePreview": "图片预览",
+    "qrCodeScanner": "二维码扫描器",
+    "viewImage": "查看图片"
+  },
+  "misc": {
+    "search": "搜索{{item}}...",
+    "notFound": {
+      "title": "糟糕！这里什么都没有",
+      "description": "找不到您正在寻找的页面。请检查网址并重试。"
+    },
+    "tipsAndTricks": "提示与技巧",
+    "loadingModule": "加载模块中...",
+    "deprecated": "不再支持",
+    "imageUpload": {
+      "local": "上传本地图片",
+      "url": "图片网址",
+      "pixabay": "从Pixabay下载",
+      "orPasteLink": "或粘贴图片链接",
+      "inputs": {
+        "imageLink": "图片链接",
+        "imageType": "图片类型",
+        "imageCategory": "图片类别",
+        "imageColor": "图片颜色",
+        "editorsChoice": "编辑推荐"
+      },
+      "imageType": {
+        "all": "所有",
+        "photo": "照片",
+        "vector": "矢量",
+        "illustration": "插图"
+      },
+      "items": {
+        "pixabay": "Pixabay"
+      },
+      "empty": {
+        "result": {
+          "title": "没有结果",
+          "description": "找不到图片, 请尝试其他关键字。"
+        },
+        "pixabay": {
+          "title": "由 Pixabay 提供",
+          "description": "搜索超过1300万张免费高质量图片。"
+        }
+      }
+    },
+    "dnd": {
+      "dropHere": "将项目拖放到这里",
+      "dragAndDropToUpload": "拖放或点击上传",
+      "or": "或",
+      "buttons": {
+        "pasteFromClipboard": "从剪贴板粘贴"
+      }
+    },
+    "buttons": {
+      "goBack": "返回",
+      "reportBug": "报告错误"
+    },
+    "colorPicker": {
+      "title": "选择颜色",
+      "modals": {
+        "morandiColorPalette": "莫兰迪色调",
+        "tailwindCssColorPalette": "Tailwind CSS色调"
+      },
+      "buttons": {
+        "morandiColorPalette": "莫兰迪色调",
+        "tailwindCssColorPalette": "Tailwind CSS色调"
+      }
+    },
+    "empty": {
+      "apiStatus": {
+        "title": "无法连接到API",
+        "description": "请检查您的网络连接并重试。如果您是开发人员，请检查服务器是否正常运行。"
+      }
+    },
+    "iconPicker": {
+      "items": {
+        "icon": "图标",
+        "iconSet": "图标集"
+      },
+      "empty": {
+        "icon": {
+          "title": "没有图标",
+          "description": "找不到图标, 请尝试其他关键字。"
+        }
+      }
+    },
+    "locationDisabled": {
+      "description": "位置输入当前不可用。请添加正确配置的Google Cloud API密钥以启用此功能。有关更多信息，请参阅",
+      "title": "不可用"
+    },
+    "dates": {
+      "months": {
+        "0": "一月",
+        "1": "二月",
+        "2": "三月",
+        "3": "四月",
+        "4": "五月",
+        "5": "六月",
+        "6": "七月",
+        "7": "八月",
+        "8": "九月",
+        "9": "十月",
+        "10": "十一月",
+        "11": "十二月"
+      },
+      "days": {
+        "0": "星期一",
+        "1": "星期二",
+        "2": "星期三",
+        "3": "星期四",
+        "4": "星期五",
+        "5": "星期六",
+        "6": "星期日"
+      }
+    },
+    "fieldRequired": "该字段是必填的。",
+    "invalidField": "无效字段。",
+    "invalidColor": "无效颜色。请输入有效的十六进制值，格式为#RRGGBB。",
+    "invalidIcon": "无效图标。必须是来自Iconify的有效图标标识符，格式为<icon-set>:<icon-name>。",
+    "loadingUserData": "正在加载用户数据...",
+    "invalidSelection": "无效选择。请从列表中选择一个有效的值。",
+    "fileInputSupportedFormat": "支持的格式：{{format}}"
+  },
+  "sidebar": {
+    "categories": {
+      "productivity": "生产力",
+      "storage": "存储",
+      "study": "学习",
+      "finance": "财务",
+      "confidential": "机密",
+      "settings": "设置",
+      "technologies": "技术",
+      "utilities": "实用工具",
+      "information": "信息",
+      "sso": "单一登录",
+      "references": "参考资料",
+      "lifestyle": "生活方式",
+      "externalManagement": "外部管理",
+      "healthFitness": "健康与健身"
+    },
+    "buttons": {
+      "signOut": "登出",
+      "accountSettings": "账户设置"
+    },
+    "items": {
+      "module": "模块"
+    },
+    "empty": {
+      "modules": {
+        "title": "未找到模块",
+        "description": "请调整模块搜索。"
+      }
+    }
+  },
+  "fetch": {
+    "error": "从服务器获取数据失败",
+    "success": "耶！成功{{action}}项目！",
+    "failure": "呃... {{action}}项目失败。请再试一次。",
+    "action": {
+      "create": "创建",
+      "update": "更新",
+      "delete": "删除",
+      "rename": "重命名",
+      "pin": "置顶",
+      "unpin": "取消置顶",
+      "archive": "归档",
+      "unarchive": "取消归档",
+      "remove": "移除",
+      "add": "添加",
+      "save": "保存",
+      "public": "公开",
+      "private": "设为私人",
+      "replace": "替换",
+      "clearMedium": "清除",
+      "thumbnail": "更新缩略图",
+      "generate": "生成",
+      "cleanedup": "清理",
+      "summarized": "总结",
+      "unlock": "解锁",
+      "download": "下载",
+      "NASFilesReady": " 文件已准备好下载。前往您的NAS。",
+      "addedToFavourites": "添加到收藏夹",
+      "removedFromFavourites": "从收藏夹中移除"
+    },
+    "redirected": "已重定向",
+    "redirecting": "重定向中...",
+    "unlock": "解锁"
+  },
+  "auth": {
+    "header": "欢迎回来",
+    "desc": "登录以继续记录您的生活旅程。",
+    "welcome": {
+      "header": "欢迎！",
+      "desc": "创建您的账户，开始打造更美好的生活。"
+    },
+    "sideImageDesc": {
+      "part1": "总有一天你会离开这个世界",
+      "part2": "所以过一个你会记得的生活"
+    },
+    "or": "或",
+    "buttons": {
+      "signIn": "登录",
+      "proceed": "继续"
+    },
+    "inputs": {
+      "emailOrUsername": {
+        "label": "电子邮件或用户名",
+        "placeholder": "johndoe@gmail.com"
+      },
+      "email": {
+        "label": "电子邮件",
+        "placeholder": "johndoe@gmail.com"
+      },
+      "username": {
+        "label": "用户名",
+        "placeholder": "johndoe"
+      },
+      "name": {
+        "label": "显示名称",
+        "placeholder": "张三"
+      },
+      "password": {
+        "label": "密码",
+        "placeholder": "输入您的密码"
+      },
+      "confirmPassword": {
+        "label": "确认密码",
+        "placeholder": "再次输入密码"
+      }
+    },
+    "validation": {
+      "emailRequired": "电子邮件为必填项",
+      "emailInvalid": "请输入有效的电子邮件地址",
+      "usernameRequired": "用户名为必填项",
+      "usernameTooShort": "用户名至少需要3个字符",
+      "usernameInvalid": "用户名只能包含字母、数字和下划线",
+      "nameRequired": "姓名为必填项",
+      "passwordRequired": "密码为必填项",
+      "passwordTooShort": "密码至少需要8个字符",
+      "passwordMismatch": "两次输入的密码不一致"
+    },
+    "modals": {
+      "twoFA": {
+        "title": "双因素身份验证",
+        "description": "请在您之前注册的身份验证器应用程序中输入提供的 OTP。",
+        "buttons": {
+          "useEmailOtp": "使用邮件OTP",
+          "useAuthApp": "使用身份验证应用"
+        },
+        "emailDescription": "请输入与您的帐户关联的电子邮件地址。",
+        "inputs": {
+          "email": "电子邮件地址"
+        }
+      }
+    },
+    "orAuthenticateWith": "或用以下方式进行身份验证",
+    "messages": {
+      "otpSent": "如果该电子邮件地址与任何账户关联，您将收到一个一次性密码。",
+      "welcomeBack": "欢迎回来，{{name}}!",
+      "invalidCredentials": "无效的电子邮件或密码。请再试一次。",
+      "invalidFields": "无效字段。请填写有效的电子邮件地址和密码。",
+      "quotaExceeded": "最大尝试次数已达到。请稍后再试。",
+      "unknownError": "未知错误。请稍后再试。",
+      "invalidLoginAttempt": "无效的登录尝试。请再试一次。"
+    },
+    "qrLogin": {
+      "title": "扫码登录",
+      "description": "使用其他设备登录您的账户。",
+      "expired": "二维码已过期",
+      "clickToRefresh": "点击刷新",
+      "approved": "登录已批准！正在跳转...",
+      "waiting": "等待批准中...",
+      "approvalTitle": "批准登录",
+      "approvalDescription": "一台设备正在请求登录您的账户",
+      "browserInfo": "设备信息",
+      "approve": "批准登录",
+      "deny": "拒绝",
+      "success": "登录已成功批准",
+      "scanQRCode": "扫描二维码登录",
+      "invalidQR": "无效的二维码",
+      "sessionNotFound": "会话未找到或已过期",
+      "alreadyApproved": "会话已被批准"
+    }
+  },
+  "vault": {
+    "vault": {
+      "lockedMessage": "您的保险库已锁定",
+      "passwordRequired": "需要主密码来解密您的保险库。",
+      "unlocked": "保险库已解锁",
+      "failedToUnlock": "解锁保险库失败",
+      "buttons": {
+        "unlock": "解锁"
+      },
+      "createPassword": {
+        "title": "设置主密码",
+        "desc": "请设置一个主密码来保护您的保险库。"
+      },
+      "inputs": {
+        "newPassword": "新密码",
+        "confirmPassword": "确认密码",
+        "masterPassword": "主密码"
+      },
+      "confirmSetNewPassword": {
+        "title": "确保您记住您的主密码！",
+        "desc": "此主密码是不可更改的（目前）！如果您不小心忘记了密码，您将失去一切。此密码会被哈希并存储在您的用户资料中，且无法解密。它将用于加密和解密您存储在保险库中的数据。"
+      }
+    },
+    "otp": {
+      "buttons": {
+        "request": "请求一次性密码",
+        "resend": "重新发送一次性密码",
+        "verify": "验证一次性密码",
+        "authByQR": "通过二维码验证"
+      },
+      "messages": {
+        "success": "一次性密码已发送！请检查您的电子邮件。",
+        "failed": "请求一次性密码失败",
+        "invalid": "一次性密码必须是6位数字",
+        "cooldown": "请求过于频繁，请稍后再试",
+        "required": {
+          "title": "需要一次性密码来解锁",
+          "desc": "为了增加安全性，需要一次性密码来解锁此模块。请点击下面的按钮来请求一次性密码。"
+        },
+        "verify": {
+          "success": "一次性密码验证成功",
+          "failed": "一次性密码验证失败"
+        }
+      }
+    }
+  }
+}
