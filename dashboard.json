@@ -1,20 +1,7 @@
 {
   "title": "仪表板",
   "description": "您的任务控制中心，让一切更精彩。",
-  "widgets": {
-    "date": {
-      "title": "日期",
-      "description": "一个简单的装饰性小工具，显示今天的日期。"
-    },
-    "clock": {
-      "title": "时钟",
-      "description": "一个小时钟，帮助您不忘时间流逝。"
-    },
-    "quotes": {
-      "description": "一则随机语录，希望能激励您度过一天。",
-      "title": "语录"
-    }
-  },
+  "widgets": {},
   "modals": {
     "manageWidgets": "管理小部件"
   },

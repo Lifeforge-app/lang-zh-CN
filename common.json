@@ -127,6 +127,13 @@
     "viewImage": "查看图片"
   },
   "misc": {
+    "alert": {
+      "note": "注意",
+      "warning": "警告",
+      "caution": "小心",
+      "tip": "提示",
+      "important": "重要"
+    },
     "search": "搜索{{item}}...",
     "notFound": {
       "title": "糟糕！这里什么都没有",
@@ -246,22 +253,7 @@
     "fileInputSupportedFormat": "支持的格式：{{format}}"
   },
   "sidebar": {
-    "categories": {
-      "productivity": "生产力",
-      "storage": "存储",
-      "study": "学习",
-      "finance": "财务",
-      "confidential": "机密",
-      "settings": "设置",
-      "technologies": "技术",
-      "utilities": "实用工具",
-      "information": "信息",
-      "sso": "单一登录",
-      "references": "参考资料",
-      "lifestyle": "生活方式",
-      "externalManagement": "外部管理",
-      "healthFitness": "健康与健身"
-    },
+    "categories": {},
     "buttons": {
       "signOut": "登出",
       "accountSettings": "账户设置"
@@ -385,6 +377,7 @@
       "invalidFields": "无效字段。请填写有效的电子邮件地址和密码。",
       "quotaExceeded": "最大尝试次数已达到。请稍后再试。",
       "unknownError": "未知错误。请稍后再试。",
+      "userCreated": "账户创建成功！欢迎来到 LifeForge。",
       "invalidLoginAttempt": "无效的登录尝试。请再试一次。"
     },
     "qrLogin": {
@@ -413,7 +406,8 @@
       "unlocked": "保险库已解锁",
       "failedToUnlock": "解锁保险库失败",
       "buttons": {
-        "unlock": "解锁"
+        "unlock": "解锁",
+        "recoverAccount": "恢复账户"
       },
       "createPassword": {
         "title": "设置主密码",

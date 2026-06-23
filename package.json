@@ -3,10 +3,6 @@
   "version": "0.0.9",
   "description": "简体中文 language support for LifeForge.",
   "author": "melvinchia3636 <melvinchia623600@gmail.com>",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/lifeforge-app/lang-zh-CN"
-  },
   "lifeforge": {
     "code": "zh-CN",
     "displayName": "简体中文",
