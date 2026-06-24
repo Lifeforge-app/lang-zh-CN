@@ -11,6 +11,10 @@
     "manageWidgets": "管理小工具",
     "lockLayout": "锁定布局"
   },
+  "messages": {
+    "editingLayout": "您正在编辑仪表板布局",
+    "editingLayoutHint": "通过拖动小部件来调整排列，或通过拖动每个小部件右下角的小三角形来调整小部件大小"
+  },
   "empty": {
     "welcome": {
       "title": "欢迎来到 LifeForge！",
