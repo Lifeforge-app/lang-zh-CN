@@ -3,16 +3,6 @@
   "description": "基于UI的LifeForge实例模块管理器",
   "category": "分类",
   "subsections": {
-    "modules": "模块",
-    "categories": "类别"
-  },
-  "buttons": {
-    "uninstall": "卸载",
-    "addTranslation": "添加翻译",
-    "addCategory": "添加分类",
-    "add category": "添加分类"
-  },
-  "subsectionTitleAndDesc": {
     "modules": {
       "title": "模块",
       "description": "安装、更新和移除您LifeForge实例中的模块"
@@ -21,6 +11,12 @@
       "title": "类别",
       "description": "整理和重新排序侧边栏类别以自定义您的导航"
     }
+  },
+  "buttons": {
+    "uninstall": "卸载",
+    "addTranslation": "添加翻译",
+    "addCategory": "添加分类",
+    "add category": "添加分类"
   },
   "items": {
     "category": "类别"
