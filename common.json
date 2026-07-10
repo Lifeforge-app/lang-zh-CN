@@ -250,7 +250,8 @@
     "invalidIcon": "无效图标。必须是来自Iconify的有效图标标识符，格式为<icon-set>:<icon-name>。",
     "loadingUserData": "正在加载用户数据...",
     "invalidSelection": "无效选择。请从列表中选择一个有效的值。",
-    "fileInputSupportedFormat": "支持的格式：{{format}}"
+    "fileInputSupportedFormat": "支持的格式：{{format}}",
+    "viewMode": "显示方式"
   },
   "sidebar": {
     "categories": {},
