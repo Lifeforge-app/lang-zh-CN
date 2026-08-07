@@ -477,7 +477,64 @@
       "after": "数量",
       "executions": "次后",
       "durationUnit": "持续时间单位",
-      "durationAmount": "持续时间数量"
+      "durationAmount": "持续时间数量",
+      "frequency": "频率",
+      "yearly": {
+        "exactDate": {
+          "title": "在确切日期",
+          "inputs": {
+            "month": "月份",
+            "date": "日期"
+          }
+        },
+        "relativeDay": {
+          "title": "在相对日期",
+          "inputs": {
+            "onThe": "在",
+            "onTheDay": "天",
+            "ofTheMonth": "的月份"
+          }
+        }
+      },
+      "monthly": {
+        "inputs": {
+          "every": "每",
+          "months": "个月"
+        },
+        "exactDate": {
+          "title": "在确切日期",
+          "inputs": {
+            "date": "日期"
+          }
+        },
+        "relativeDay": {
+          "title": "在相对日期",
+          "inputs": {
+            "onThe": "在",
+            "onTheDay": "天"
+          }
+        }
+      },
+      "weekly": {
+        "inputs": {
+          "every": "每",
+          "weeks": "周",
+          "onDays": "在星期几"
+        }
+      },
+      "daily": {
+        "inputs": {
+          "every": "每",
+          "days": "天"
+        }
+      },
+      "hourly": {
+        "inputs": {
+          "every": "每",
+          "hours": "小时"
+        }
+      },
+      "endType": "结束"
     },
     "durationUnits": {
       "minute": "分钟",
